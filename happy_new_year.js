@@ -1,6 +1,6 @@
 let intervalFunc = setInterval(() => {
 	let time = getTime();
-	if (time == "12:37:00") {
+	if (time == "12:00:00") {
 		stopIntervalFunc();
 		console.log("00:00:00");
 		console.log("新年快乐！");
